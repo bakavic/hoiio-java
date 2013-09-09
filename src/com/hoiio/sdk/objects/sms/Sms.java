@@ -122,7 +122,7 @@ public class Sms extends HoiioResponse {
 	}
 
 	/**
-	 * Gets the number of nultipart SMS that this message has been split into
+	 * Gets the number of multipart SMS that this message has been split into
 	 * @return The number of multipart SMS that this message has been split into.
 	 */
 	public int getSplitCount() {
@@ -130,7 +130,7 @@ public class Sms extends HoiioResponse {
 	}
 
 	/**
-	 * Gets your reference ID submmited in the initial sms/send request
+	 * Gets your reference ID submitted in the initial sms/send request
 	 * @return Your own reference ID submitted in the initial sms/send request. This parameter will not be present if it wasn't included in the initial request.
 	 */
 	public String getTag() {
